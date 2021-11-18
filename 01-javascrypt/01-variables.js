@@ -39,3 +39,4 @@ const arreglo = {
     },
     mascotas['cachetes','pequitas','panda']
 };
+
