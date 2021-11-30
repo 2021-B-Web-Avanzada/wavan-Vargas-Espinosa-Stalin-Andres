@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b884cb3-5c7f-4276-bfc9-808f1f49af2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/multiplicacion" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascrypt/01-variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-javascrypt/03-Operadores.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-javascrypt/04-funciones.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-javascrypt/05-destructuracion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-javascrypt/06-callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-javascrypt/06-ejemplo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-javascrypt/07-ejercicio_lectura_escritura.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-javascrypt/08-promesas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-javascrypt/02.2 - arreglos.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-javascrypt/02.2 - arreglos.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +39,34 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Node.js.08-promesas.js">
+    <configuration name="03-Operadores.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascrypt/03-Operadores.js" working-dir="$PROJECT_DIR$/01-javascrypt">
+      <method v="2" />
+    </configuration>
+    <configuration name="05-destructuracion.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascrypt/05-destructuracion.js" working-dir="$PROJECT_DIR$/01-javascrypt">
+      <method v="2" />
+    </configuration>
+    <configuration name="06-callback.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascrypt/06-callback.js" working-dir="$PROJECT_DIR$/01-javascrypt">
+      <method v="2" />
+    </configuration>
+    <configuration name="07-ejercicio_lectura_escritura.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascrypt/07-ejercicio_lectura_escritura.js" working-dir="$PROJECT_DIR$/01-javascrypt">
+      <method v="2" />
+    </configuration>
+    <configuration name="08-promesas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-javascrypt/08-promesas.js" working-dir="$PROJECT_DIR$/01-javascrypt">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.08-promesas.js" />
+        <item itemvalue="Node.js.07-ejercicio_lectura_escritura.js" />
+        <item itemvalue="Node.js.06-callback.js" />
+        <item itemvalue="Node.js.03-Operadores.js" />
+        <item itemvalue="Node.js.05-destructuracion.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,7 +78,8 @@
       <updated>1637124407299</updated>
       <workItem from="1637124415073" duration="1997000" />
       <workItem from="1637126804106" duration="2110000" />
-      <workItem from="1637153496762" duration="3293000" />
+      <workItem from="1637153496762" duration="23505000" />
+      <workItem from="1638274730185" duration="5794000" />
     </task>
     <servers />
   </component>
