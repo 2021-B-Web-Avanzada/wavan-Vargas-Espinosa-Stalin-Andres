@@ -284,10 +284,10 @@ async function main(){
                             },
                             {
                             type:'input',
-                            name : 'id_cine',
+                            name : 'id_pelicula',
                             message: 'Ingrese el identificador de la pelicula que desea eliminar'
                         }]);
-                        funciones.eliminarRegistro(id.id_cine, )
+                        funciones.eliminarRegistroPelicula(id.id_cine, id.id_pelicula)
                     }catch (err){
                         console.error(err)
                     }

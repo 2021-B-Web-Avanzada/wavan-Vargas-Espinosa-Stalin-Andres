@@ -186,6 +186,24 @@ async function actualizarRegistroPelicula(pelicula, id_cine){
 
 }
 
+async function eliminarRegistroPelicula(id_cine){
+    try{
+        let cines = await leerArchivo();
+        let indice = cines.findIndex((objeto, indice, cines)=>{
+
+            return objeto.identificador ==id_cine
+
+        });
+        cines.splice(indice,1)
+        await fs.writeFile(path,JSON.stringify(cines,null,2));
+        console.log('Registro eliminado con Exito')
+    }catch (err){
+        consol.error(err);
+    }
+
+
+}
+
 
 exports.leerArchivo = leerArchivo;
 exports.escribirArchivo = escribirArchivo;
