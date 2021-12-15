@@ -1,0 +1,59 @@
+const express = require('express')
+const rutas =express.Router()
+
+//leer cines
+rutas.get('/', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+            conn.query('SELECT * FROM informacion_cine', (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.json(rows)
+                }
+            })
+        }
+    })
+})
+//crear cine
+rutas.post('/', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+
+            conn.query('INSERT INTO informacion_cine set ?' ,[req.body], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.send('El cine ha sido registrado ')
+                }
+            })
+        }
+    })
+})
+
+
+rutas.delete('/:id', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+
+            conn.query('DELETE FROM informacion_cine WHERE id = ? ' ,[req.params.id], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.send('El cine ha sido eliminado ')
+                }
+            })
+        }
+    })
+})
+
+module.exports = rutas
