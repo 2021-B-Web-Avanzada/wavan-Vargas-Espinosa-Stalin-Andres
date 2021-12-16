@@ -2,8 +2,11 @@ const express = require('express')
 const mysql = require('mysql')
 const myconn = require('express-myconnection')
 const rutas = require('./rutas')
+const rutas_pelicula = require('./rutas_pelicula')
+const rutas_pelicula_cine = require('./ruta_pelicula_cine')
 
 const app = express()
+
 
 app.set('port', process.env.PORT || 9000)
 
@@ -15,8 +18,6 @@ const ruta_acceso ={
     database: 'cine'
 
 }
-
-
 //inicializar la bdd
 app.use(myconn(mysql, ruta_acceso, 'single'))
 app.use(express.json())
@@ -29,8 +30,10 @@ app.get('/', (req,res)=>{
 
 app.use('/api', rutas
 )
-
-
+app.use('/api_peliculas', rutas_pelicula
+)
+app.use('/api_peliculas_cine', rutas_pelicula_cine
+)
 
 // servidor corriendo
 app.listen(app.get('port'), () => {

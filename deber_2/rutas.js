@@ -37,7 +37,7 @@ rutas.post('/', (req,res)=>{
     })
 })
 
-
+//borrar cine
 rutas.delete('/:id', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
@@ -50,6 +50,45 @@ rutas.delete('/:id', (req,res)=>{
                     return res.send(err)
                 }  else{
                     res.send('El cine ha sido eliminado ')
+                }
+            })
+        }
+    })
+})
+
+//actualizar cine
+rutas.put('/:id', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+            conn.query('UPDATE informacion_cine SET ? WHERE id = ? ' ,[req.body, req.params.id], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.send('El cine ha sido actualizado ')
+                }
+            })
+        }
+    })
+})
+
+
+// crear pelicula
+//crear cine
+rutas.post('/', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+
+            conn.query('INSERT INTO pelicula set ?' ,[req.body], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.send('Ela pelicula se ha registrado con exito ')
                 }
             })
         }
