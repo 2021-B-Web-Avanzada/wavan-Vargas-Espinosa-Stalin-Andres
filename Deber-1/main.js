@@ -162,7 +162,7 @@ async function main(){
                         {
                             type: 'input',
                             name:'id_museo',
-                            message: 'Ingrese el ID del museo a asociar'
+                            message: 'Ingrese el ID del cine a asociar'
                         },
                         {
                             type: 'input',
@@ -216,7 +216,7 @@ async function main(){
                             {
                                 type: 'input',
                                 name:'id_cine',
-                                message: 'Ingrese el ID del museo a asociar'
+                                message: 'Ingrese el ID del cine a asociar'
                             },
                             {
                                 type: 'input',
@@ -291,6 +291,23 @@ async function main(){
                     }catch (err){
                         console.error(err)
                     }
+                    case 8:
+                        try{
+                            let peliculas = await funciones.leerArchivoPeliculas()
+
+                            console.log('Identificador' + '\t' + 'Nombre de la pelicula' +'\t' + 'categoria' + '\t' +'Esta_en_Cartelera' + '\t' + 'restriccion' +'\t' + 'fecha_Estrenon'  )
+                            for(let clave in peliculas ){
+                                console.log(peliculas[clave]["identificador"] + '\t' + peliculas[clave][ "nombrePelicula" ] + peliculas[clave][ "Categoria" ] + '\t' + peliculas[clave][ "Esta_en_Cartelera" ] +
+                                    peliculas[clave][ "restriccion" ] + '\t' + peliculas[clave][ "fecha_Estreno" ] )
+                            }
+
+
+                        }catch (err){
+                            console.error(err)}
+                        break;
+                case 9:
+                    bandera = false;
+                    break;
 
             }
 

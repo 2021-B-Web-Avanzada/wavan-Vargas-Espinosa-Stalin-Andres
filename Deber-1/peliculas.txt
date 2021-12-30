@@ -38,5 +38,13 @@
     "Esta_en_Cartelera": true,
     "restriccion": "+18",
     "fecha_Estreno": "18/12/2021"
+  },
+  {
+    "identificador": "S10",
+    "nombrePelicula": "Spiderman no way home",
+    "Categoria": "Aventura",
+    "Esta_en_Cartelera": true,
+    "restriccion": "+15",
+    "fecha_Estreno": "17/12/2021"
   }
 ]

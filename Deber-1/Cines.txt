@@ -1,14 +1,5 @@
 [
   {
-    "identificador": "1",
-    "nombreCine": "Multicines SUR",
-    "direccion": "Upersines",
-    "nombreAdministrador": "Upersines",
-    "telefonoAdministrador": 4,
-    "horaApertura": "10:00-18:00",
-    "pelicula": []
-  },
-  {
     "identificador": "3",
     "nombreCine": "Cines Pepito",
     "direccion": "Av. Ajavi",
@@ -57,6 +48,41 @@
         "Esta_en_Cartelera": true,
         "restriccion": "+18",
         "fecha_Estreno": "18/12/2021"
+      }
+    ]
+  },
+  {
+    "identificador": "6",
+    "nombreCine": "Muticines Centro",
+    "direccion": "Av Santo Domingo",
+    "nombreAdministrador": "Andres Vargas",
+    "telefonoAdministrador": 961000284,
+    "horaApertura": "10:00-23:00",
+    "pelicula": []
+  },
+  {
+    "identificador": "7",
+    "nombreCine": "Supercines Sur",
+    "direccion": "Av Moran Vaverde",
+    "nombreAdministrador": "Andres Vargas",
+    "telefonoAdministrador": 961000284,
+    "horaApertura": "10:00-22:00",
+    "pelicula": [
+      {
+        "identificador": "S10",
+        "nombrePelicula": "Spiderman",
+        "Categoria": "Accion",
+        "Esta_en_Cartelera": true,
+        "restriccion": "+15",
+        "fecha_Estreno": "16/12/2021"
+      },
+      {
+        "identificador": "S10",
+        "nombrePelicula": "Spiderman no way home",
+        "Categoria": "Aventura",
+        "Esta_en_Cartelera": true,
+        "restriccion": "+15",
+        "fecha_Estreno": "17/12/2021"
       }
     ]
   }

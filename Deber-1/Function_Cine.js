@@ -43,7 +43,7 @@ async function  escribirArchivo (cine){
             await fs.writeFile(path,JSON.stringify(cines,null,2));
         }
         else{
-            throw 'Museo ya registrado';
+            throw 'Cine ya registrado';
         }
 
     } catch (error) {
@@ -115,7 +115,7 @@ async function  registrarPelicula (pelicula, id_museo){
         if(!pelicula_ya_registrada){
             peliculas.push(pelicula);
             await fs.writeFile(path_Pelicula,JSON.stringify(peliculas,null,2));
-            console.log('Registroo en archivo de peliculas exitoso')
+            console.log('Registro en archivo de peliculas exitoso')
         }
         else{
             throw 'Pelicula ya registrado';
