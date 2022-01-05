@@ -7,23 +7,23 @@ POST http://localhost:9000/api HTTP/1.1
 Content-Type: application/json
 
 {
-   "nombre_cine": "Supercines",
-  "Direccion":  "Av Simon Bolivar ",
-  "nombre Administrador":  "Carlos Sanchez",
+   "nombre_cine": "Cines Juanito",
+  "Direccion":  "Av de las Americas ",
+  "nombre Administrador":  "Andres Vargas",
   "TelefonoContacto":  "096542351" ,
    "hora_Apertura": "08:00-20:00"
 
 }
 
 ###
-DELETE http://localhost:9000/api/4 HTTP/1.1
+DELETE http://localhost:9000/api/9 HTTP/1.1
 
 ###
 PUT http://localhost:9000/api/6 HTTP/1.1
 Content-Type: application/json
 
 {
-  "nombre_cine": "MULTICINES CENTRO",
+  "nombre_cine": "MULTICINES ",
   "Direccion":  "Av Moran Valverde ",
   "nombre Administrador":  "Enrique Garzon",
   "TelefonoContacto":  "096542351" ,
@@ -32,9 +32,9 @@ Content-Type: application/json
 }
 
 
-//mostrar peliculas
-###
 
+###
+// Mostrar peliculas
 GET http://localhost:9000/api_peliculas HTTP/1.1
 
 ###
@@ -43,8 +43,8 @@ POST http://localhost:9000/api_peliculas HTTP/1.1
 Content-Type: application/json
 
 {
-  "id": "7",
-  "nombrePelicula":  "THOR ",
+  "id": "9",
+  "nombrePelicula":  "Spiderman ",
   "Categoria":  "Ficcion",
   "Esta_en_Cartelera":  "SI" ,
   "restriccion": "+1",
@@ -68,7 +68,7 @@ Content-Type: application/json
 
 ###
 // eliminar pelicula
-DELETE http://localhost:9000/api_peliculas/4 HTTP/1.1
+DELETE http://localhost:9000/api_peliculas/3 HTTP/1.1
 
 ###
 //consultar peliculas registraa por cine
