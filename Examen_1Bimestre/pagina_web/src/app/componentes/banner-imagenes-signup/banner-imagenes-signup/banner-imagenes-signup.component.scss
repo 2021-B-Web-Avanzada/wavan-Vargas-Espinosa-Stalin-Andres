@@ -1,0 +1,56 @@
+.star_for_frre_principal{
+  float: left;
+  width: 100%;
+  height: 600px;
+  background: #3A10E5;
+  box-sizing: border-box;
+}
+.for_free{
+  width: 100%;
+  height: 70px;
+  color:  #FFF0E5;
+
+  font-family: 'Apercu';
+  font-weight: bold;  font-size: 55px; box-sizing: border-box;
+
+}
+.for_free_info{
+  width: 105%;height: 100px;color:  #FFF0E5; margin-top: 15px;
+  font-size: 20px; font-weight: normal; font-family: 'Apercu';  line-height : 28px;
+}
+.button_sign_up{
+  width: 38%;
+  height: 50px;
+
+  box-sizing: border-box; margin-top: 15px;
+  background: #FFD300; border-radius: 5px; text-align: center; padding-top: 14px;
+}
+.button_sign_up a{
+  text-decoration-line: none;
+  color: #0A0D1C;
+  font-size: 17px; font-weight: bold;
+}
+.button_sign_up:hover{
+color: #CCA900;
+  transition: opacity 2s;
+
+}
+.contenedor1{
+  float: left;
+
+  width: 25%;
+  height: 300px;
+  margin-top: 150px; box-sizing: border-box;margin-left: 300px;
+}
+.imagen{
+  float: left;
+
+  width: 25%;
+  height: 250px;
+  margin-top: 150px; box-sizing: border-box;margin-left: 150px;
+}
+
+img{
+  width: 125%;
+
+}
