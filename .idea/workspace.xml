@@ -2,43 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b884cb3-5c7f-4276-bfc9-808f1f49af2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03-angular/ejemplo/src/app/servicios/auth/esta-logueado.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/Peliculas/src/app/interfaces/cine.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/Peliculas/src/app/interfaces/listacines.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/Peliculas/src/app/interfaces/listapeliculas.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/Peliculas/src/app/interfaces/pelicula.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/Peliculas/src/app/servicios/api/api.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/Peliculas/src/app/servicios/api/api.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/Peliculas/src/app/servicios/mensajes_Informativos/mensajes_Informativos.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/Peliculas/src/app/servicios/mensajes_Informativos/mensajes_Informativos.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/02-TypeScrypt/04-clases.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/rutas/ruta-login/ruta-login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/ejemplo/src/app/servicios/auth/auth-services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/rutas/ruta-login/ruta-login.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/rutas/ruta-login/ruta-login.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/app/rutas/ruta-login/ruta-login.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/03-angular/ejemplo/src/app/servicios/auth/es-administrador.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-angular/ejemplo/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deber-1/Cines.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Deber-1/Cines.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deber-1/Function_Cine.js" beforeDir="false" afterPath="$PROJECT_DIR$/Deber-1/Function_Cine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deber-1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Deber-1/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deber-1/peliculas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Deber-1/peliculas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen_1Bimestre/pagina_web/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Examen_1Bimestre/pagina_web/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen_1Bimestre/pagina_web/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Examen_1Bimestre/pagina_web/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deber_2/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/deber_2/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deber_2/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/deber_2/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deber_2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/deber_2/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deber_2/request.http" beforeDir="false" afterPath="$PROJECT_DIR$/deber_2/request.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deber_2/rutas.js" beforeDir="false" afterPath="$PROJECT_DIR$/deber_2/rutas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deber_2/rutas_pelicula.js" beforeDir="false" afterPath="$PROJECT_DIR$/deber_2/rutas_pelicula.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deber_2/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/deber_2/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +45,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="2121WpA2al99npY6LXsioUlPCFu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,11 +66,14 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="HTTP Request.request#9">
-    <configuration name="request#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="4" runType="Run single request">
+  <component name="RunManager" selected="HTTP Request.request#10">
+    <configuration name="request#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="request#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="5" runType="Run single request">
+    <configuration name="request#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="request#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="request#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="6" runType="Run single request">
@@ -93,15 +82,12 @@
     <configuration name="request#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="8" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="request#9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="9" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.request#9" />
-        <item itemvalue="HTTP Request.request#8" />
+        <item itemvalue="HTTP Request.request#10" />
         <item itemvalue="HTTP Request.request#6" />
-        <item itemvalue="HTTP Request.request#5" />
+        <item itemvalue="HTTP Request.request#3" />
+        <item itemvalue="HTTP Request.request#8" />
         <item itemvalue="HTTP Request.request#4" />
       </list>
     </recent_temporary>
@@ -121,6 +107,8 @@
       <workItem from="1639464256379" duration="43996000" />
       <workItem from="1639583112188" duration="8684000" />
       <workItem from="1639602369470" duration="47739000" />
+      <workItem from="1645151222013" duration="20787000" />
+      <workItem from="1645201990630" duration="26638000" />
     </task>
     <servers />
   </component>

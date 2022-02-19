@@ -2,7 +2,7 @@ const express = require('express')
 const rutas =express.Router()
 
 //leer cines
-rutas.get('/', (req,res)=>{
+rutas.get('/obtenerCines', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
@@ -18,8 +18,27 @@ rutas.get('/', (req,res)=>{
         }
     })
 })
+
+//obtener cine x Id
+rutas.get('/cinexId/:id', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+            conn.query('SELECT * FROM informacion_cine where id = ?'  ,[req.params.id], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.json(rows)
+                }
+            })
+        }
+    })
+})
+
 //crear cine
-rutas.post('/', (req,res)=>{
+rutas.post('/crearCine', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
@@ -38,7 +57,7 @@ rutas.post('/', (req,res)=>{
 })
 
 //borrar cine
-rutas.delete('/:id', (req,res)=>{
+rutas.delete('/borrarCine/:id', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
@@ -57,7 +76,7 @@ rutas.delete('/:id', (req,res)=>{
 })
 
 //actualizar cine
-rutas.put('/:id', (req,res)=>{
+rutas.put('/actualizarCine/:id', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)

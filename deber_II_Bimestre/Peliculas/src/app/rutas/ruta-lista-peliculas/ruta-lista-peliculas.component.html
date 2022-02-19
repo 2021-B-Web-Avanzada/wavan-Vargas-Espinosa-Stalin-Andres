@@ -1,0 +1,47 @@
+
+<h3 style="color: #FF5733">PELICULAS REGISTRADAS</h3><br>
+
+
+<div class="container">
+
+
+
+  <button type="button" class="btn" style="background-color: #FFAF33; color:#131211;
+  font-weight: bold" (click)="nuevaPelicula(5)">Nueva Pelicula</button><br><br>
+
+
+  <table class="table table-hover">
+    <thead class="thead-dark">
+    <tr style="color: #13678A">
+      <th scope="col">identificador</th>
+      <th scope="col">Pelicula</th>
+      <th scope="col">Categoria</th>
+      <th scope="col">Esta_en_Cartelera</th>
+      <th scope="col">restriccion</th>
+      <th scope="col">fecha de estreno</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let pelicula of peliculas; let i=index" (click)="editarPelicula(pelicula.id_pelicula)">
+      <th scope="row">{{pelicula.id_pelicula}}</th>
+      <td>{{pelicula.nombrePelicula}}</td>
+      <td>{{pelicula.Categoria}}</td>
+      <td>{{pelicula.Esta_en_Cartelera}}</td>
+      <td>{{pelicula.restriccion}}</td>
+      <td>{{pelicula.fecha_estreno}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <div class="row d-flex justify-content-center">
+<br>
+    <div class="col-sm-1">
+      <button type="button" class="btn" style="background-color: #F74949; color: white" (click)="salir()">Salir</button>
+    </div>
+    <button type="button" class="btn"
+            style="background-color: #D98BBD; color:white; font-weight: bold"
+            *ngFor="let info of info_cine"
+            (click)="nuevaPelicula(info.id)">Nueva Pelicula</button><br><br>
+  </div>
+
+</div>
+

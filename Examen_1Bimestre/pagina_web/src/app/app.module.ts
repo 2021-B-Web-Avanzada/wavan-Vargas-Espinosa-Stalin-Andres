@@ -19,6 +19,7 @@ import { RutaNotFoundComponent } from './rutas/ruta-not-found/ruta-not-found.com
     AppComponent,
     RutaHomeComponent,
     RutaNotFoundComponent
+    Ruta
   ],
   imports: [
     BrowserModule,

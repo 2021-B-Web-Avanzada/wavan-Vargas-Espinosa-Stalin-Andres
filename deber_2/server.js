@@ -6,8 +6,9 @@ const rutas_pelicula = require('./rutas_pelicula')
 const rutas_pelicula_cine = require('./ruta_pelicula_cine')
 
 const app = express()
+const cors = require('cors')
 
-
+app.use(cors())
 app.set('port', process.env.PORT || 9000)
 
 const ruta_acceso ={

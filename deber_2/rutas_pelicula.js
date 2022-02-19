@@ -1,7 +1,7 @@
 const express = require('express')
 const rutas_pelicula =express.Router()
 //leer peliculas
-rutas_pelicula.get('/', (req,res)=>{
+rutas_pelicula.get('/obtenerPeliculas', (req,res)=>{
     req.getConnection((err,conn)=>{
         if((err)) {
             return res.send(err)
@@ -17,9 +17,28 @@ rutas_pelicula.get('/', (req,res)=>{
         }
     })
 })
+
+//obtener peliculas por id de cine
+rutas_pelicula.get('/obtenerPeliculasxCine/:id', (req,res)=>{
+    req.getConnection((err,conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+            conn.query('SELECT * FROM pelicula where id = ?' ,[req.params.id], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.json(rows)
+                }
+            })
+        }
+    })
+})
+
 // crear peliculas
 
-rutas_pelicula.post('/', (req,res)=>{
+rutas_pelicula.post('/crearPelicula', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
@@ -39,7 +58,7 @@ rutas_pelicula.post('/', (req,res)=>{
 
 // actualiar pelicula asociada a un cine
 
-rutas_pelicula.put('/:id_pelicula', (req,res)=>{
+rutas_pelicula.put('/actualizarPelicula/:id_pelicula', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
@@ -63,7 +82,7 @@ rutas_pelicula.put('/:id_pelicula', (req,res)=>{
 
 //eliminar pelicula
 //borrar cine
-rutas_pelicula.delete('/:id_pelicula', (req,res)=>{
+rutas_pelicula.delete('/borrarPelicula/:id_pelicula', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
