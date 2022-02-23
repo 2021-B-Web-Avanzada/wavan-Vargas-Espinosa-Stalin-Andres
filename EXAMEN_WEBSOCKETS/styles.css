@@ -1,0 +1,5 @@
+.canva{
+    tab-index: 0;
+    width: 640px ; height: 480px; border: 1px solid red; display: block;
+    margin: 0 auto; background: aqua;
+}
