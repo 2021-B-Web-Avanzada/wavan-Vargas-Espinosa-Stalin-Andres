@@ -1,5 +1,45 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url('fonts/Helvetica.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('fonts/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
 .canva{
     tab-index: 0;
     width: 640px ; height: 480px; border: 1px solid red; display: block;
-    margin: 0 auto; background: aqua;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: #fdf6e3;
+}
+.header{
+        width: 100%;
+    height: 70px;
+    box-sizing: border-box; font-family: Lato-Bold;
+     color: #fff;
+   /* background: rgba(98,122,173,1);*/
+    background: #253030;
+    text-align: center;
+    font-size: 45px;
+
+}
+.footer{
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0  ;
+    width: 100%;
+    background: #eeffff;
+
 }

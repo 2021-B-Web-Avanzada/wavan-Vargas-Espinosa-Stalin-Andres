@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b884cb3-5c7f-4276-bfc9-808f1f49af2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/mocorgo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/userInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen_2_Bimestre/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen_2_Bimestre/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Examen_2_Bimestre/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deber_II_Bimestre/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/userInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/userInput.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,25 +63,25 @@
     <configuration name="request#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="10" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="request#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="3" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="request#6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/deber_2/request.http" index="6" runType="Run single request">
-      <method v="2" />
-    </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wavan-Vargas-Espinosa-Stalin-Andres/EXAMEN_WEBSOCKETS/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wavan-Vargas-Espinosa-Stalin-Andres/Examen_2_Bimestre/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="client.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/client.js" working-dir="$PROJECT_DIR$/EXAMEN_WEBSOCKETS">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/EXAMEN_WEBSOCKETS/server.js" working-dir="$PROJECT_DIR$/EXAMEN_WEBSOCKETS">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="Node.js.client.js" />
+        <item itemvalue="Node.js.server.js" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="HTTP Request.request#10" />
-        <item itemvalue="HTTP Request.request#6" />
-        <item itemvalue="HTTP Request.request#3" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +103,8 @@
       <workItem from="1645151222013" duration="20787000" />
       <workItem from="1645201990630" duration="26638000" />
       <workItem from="1645482795667" duration="17736000" />
-      <workItem from="1645550481370" duration="16883000" />
+      <workItem from="1645550481370" duration="41439000" />
+      <workItem from="1645922222975" duration="16091000" />
     </task>
     <servers />
   </component>
