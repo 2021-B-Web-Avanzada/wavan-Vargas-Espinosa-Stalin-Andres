@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b884cb3-5c7f-4276-bfc9-808f1f49af2f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.html" afterDir="false" />
-    </list>
+    <list default="true" id="3b884cb3-5c7f-4276-bfc9-808f1f49af2f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +97,7 @@
       <workItem from="1645201990630" duration="26638000" />
       <workItem from="1645482795667" duration="17736000" />
       <workItem from="1645550481370" duration="41439000" />
-      <workItem from="1645922222975" duration="47089000" />
+      <workItem from="1645922222975" duration="47683000" />
     </task>
     <servers />
   </component>
