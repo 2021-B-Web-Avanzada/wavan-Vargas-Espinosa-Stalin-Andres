@@ -8,6 +8,7 @@ import { BannerImagenesModule } from './componentes/banner-imagenes/banner-image
 import { BannerImagenesComponent } from './componentes/banner-imagenes/banner-imagenes/banner-imagenes.component';
 import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
 import { RutaModulosComponent } from './rutas/ruta-modulos/ruta-modulos.component';
+import { RutaCategoriasComponent } from './rutas/ruta-categorias/ruta-categorias.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { RutaModulosComponent } from './rutas/ruta-modulos/ruta-modulos.componen
     AppComponent,
     RutaLoginComponent,
     RutaModulosComponent,
+    RutaCategoriasComponent,
 
   ],
   imports: [
