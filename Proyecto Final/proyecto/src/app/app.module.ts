@@ -9,6 +9,7 @@ import { BannerImagenesComponent } from './componentes/banner-imagenes/banner-im
 import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
 import { RutaModulosComponent } from './rutas/ruta-modulos/ruta-modulos.component';
 import { RutaCategoriasComponent } from './rutas/ruta-categorias/ruta-categorias.component';
+import { RutaNuevoPlatoComponent } from './rutas/ruta-nuevo-plato/ruta-nuevo-plato.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { RutaCategoriasComponent } from './rutas/ruta-categorias/ruta-categorias
     RutaLoginComponent,
     RutaModulosComponent,
     RutaCategoriasComponent,
+    RutaNuevoPlatoComponent,
 
   ],
   imports: [

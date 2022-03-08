@@ -4,6 +4,7 @@ import { BannerImagenesModuloComponent } from './componentes/banner-imagenes-mod
 import { RutaCategoriasComponent } from './rutas/ruta-categorias/ruta-categorias.component';
 import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
 import { RutaModulosComponent } from './rutas/ruta-modulos/ruta-modulos.component';
+import { RutaNuevoPlatoComponent } from './rutas/ruta-nuevo-plato/ruta-nuevo-plato.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'categorias',
     component: RutaCategoriasComponent
+  },
+  {
+    path: 'nuevo_plato',
+    component: RutaNuevoPlatoComponent
   }
 ];
 
