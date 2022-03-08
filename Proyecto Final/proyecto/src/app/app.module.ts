@@ -10,6 +10,11 @@ import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
 import { RutaModulosComponent } from './rutas/ruta-modulos/ruta-modulos.component';
 import { RutaCategoriasComponent } from './rutas/ruta-categorias/ruta-categorias.component';
 import { RutaNuevoPlatoComponent } from './rutas/ruta-nuevo-plato/ruta-nuevo-plato.component';
+import { RutaEditarPlatoComponent } from './rutas/ruta-editar-plato/ruta-editar-plato.component';
+import { RutaListaClientesComponent } from './rutas/ruta-lista-clientes/ruta-lista-clientes.component';
+import { RutaNuevoClienteComponent } from './rutas/ruta-nuevo-cliente/ruta-nuevo-cliente.component';
+import { RutaEditarClienteComponent } from './rutas/ruta-editar-cliente/ruta-editar-cliente.component';
+import { RutaModuloComprobanteComponent } from './rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component';
 
 
 @NgModule({
@@ -19,6 +24,11 @@ import { RutaNuevoPlatoComponent } from './rutas/ruta-nuevo-plato/ruta-nuevo-pla
     RutaModulosComponent,
     RutaCategoriasComponent,
     RutaNuevoPlatoComponent,
+    RutaEditarPlatoComponent,
+    RutaListaClientesComponent,
+    RutaNuevoClienteComponent,
+    RutaEditarClienteComponent,
+    RutaModuloComprobanteComponent,
 
   ],
   imports: [

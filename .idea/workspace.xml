@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3b884cb3-5c7f-4276-bfc9-808f1f49af2f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes/banner-imagenes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes/banner-imagenes.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes/banner-imagenes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes/banner-imagenes.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-categorias/ruta-categorias.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-categorias/ruta-categorias.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-categorias/ruta-categorias.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-categorias/ruta-categorias.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-categorias/ruta-categorias.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-categorias/ruta-categorias.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.ts" afterDir="false" />
@@ -111,7 +105,7 @@
       <workItem from="1645201990630" duration="26638000" />
       <workItem from="1645482795667" duration="17736000" />
       <workItem from="1645550481370" duration="41439000" />
-      <workItem from="1645922222975" duration="63435000" />
+      <workItem from="1645922222975" duration="67722000" />
     </task>
     <servers />
   </component>

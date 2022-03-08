@@ -20,7 +20,7 @@ export class RutaCategoriasComponent implements OnInit {
   this.router.navigate(['nuevo_plato'])
   }
   editar(){
-
+  this.router.navigate(['editar_plato'])
   }
   borrar(){
 

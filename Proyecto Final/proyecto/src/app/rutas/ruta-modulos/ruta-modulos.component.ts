@@ -21,5 +21,8 @@ export class RutaModulosComponent implements OnInit {
   categorias(){
   this.router.navigate(['categorias'])
   }
+  lista_clientes(){
+  this.router.navigate(['lista_clientes'])
+}
 
 }
