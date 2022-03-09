@@ -26,8 +26,7 @@ header{
   margin-left: 650px;
   margin-top: 10px;
 }
-
-.texto_modulo{
+.texto_nuevo_plato{
   width: 100%;
   box-sizing: border-box;
   font-size: 50px;
@@ -40,8 +39,6 @@ header{
   border-bottom: 1px solid #2d2d2d;
 
 }
-
-
 .footer{
   position: relative;
   background: rgba(45,45,45,1);
@@ -49,37 +46,28 @@ header{
   text-align: center;
   bottom: 0;
   width: 100%;
-  margin-top: 650px;
+  margin-top: 100px;
   color: rgba(203,203,203,1);
   padding-top: 20px;
   box-sizing: border-box;
   font-size: 16px;
 
 }
-.cuadro_modulos{
-  margin-top: 80px;
-  width: 400px;
-  margin-left: 17%;
+.principal_tipo{
+  margin-top: 5%;
 
-  height: 400px;
-  float: left;
-  border-radius: 100px;
-  position: relative;
-
-}
-img{
-  border-radius: 100px;
+  width: 60%;
+  margin-left: 20%;
+  height: 350px;
+  border-radius: 50px;
+  background: rgba(253,204,33,1);
 }
 
-.texto_categorias{
-  position: absolute;
+.linea{
+  margin-top: 20px;
+  width: 90%;
+  height: 70px;
 
-  //padding-left: 60px;
-  width: 400px;
-  box-sizing: border-box; color: rgba(45,45,45,1); font-size: 30px;
-  margin-top: 15px;
-  //padding-top: 22px;
-  font-family: fangsong;
-  text-align: center;
-
+  border-bottom: 1px solid black;
+  margin-left: 5%;
 }

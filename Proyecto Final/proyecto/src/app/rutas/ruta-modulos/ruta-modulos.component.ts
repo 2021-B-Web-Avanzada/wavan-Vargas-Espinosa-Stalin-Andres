@@ -24,5 +24,8 @@ export class RutaModulosComponent implements OnInit {
   lista_clientes(){
   this.router.navigate(['lista_clientes'])
 }
+  comprobantes(){
+    this.router.navigate(['modulo_comprobante'])
+  }
 
 }

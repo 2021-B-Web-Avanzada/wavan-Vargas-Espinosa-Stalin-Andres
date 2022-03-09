@@ -5,10 +5,13 @@ import { RutaCategoriasComponent } from './rutas/ruta-categorias/ruta-categorias
 import { RutaEditarClienteComponent } from './rutas/ruta-editar-cliente/ruta-editar-cliente.component';
 import { RutaEditarPlatoComponent } from './rutas/ruta-editar-plato/ruta-editar-plato.component';
 import { RutaListaClientesComponent } from './rutas/ruta-lista-clientes/ruta-lista-clientes.component';
+import { RutaListaComprobantesComponent } from './rutas/ruta-lista-comprobantes/ruta-lista-comprobantes.component';
 import { RutaLoginComponent } from './rutas/ruta-login/ruta-login.component';
+import { RutaModuloComprobanteComponent } from './rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component';
 import { RutaModulosComponent } from './rutas/ruta-modulos/ruta-modulos.component';
 import { RutaNuevoClienteComponent } from './rutas/ruta-nuevo-cliente/ruta-nuevo-cliente.component';
 import { RutaNuevoPlatoComponent } from './rutas/ruta-nuevo-plato/ruta-nuevo-plato.component';
+import { RutaTipoComprobanteComponent } from './rutas/ruta-tipo-comprobante/ruta-tipo-comprobante.component';
 
 const routes: Routes = [
   {
@@ -48,6 +51,18 @@ const routes: Routes = [
   {
     path: 'editar_cliente',
     component: RutaEditarClienteComponent
+  },
+  {
+    path: 'modulo_comprobante',
+    component: RutaModuloComprobanteComponent
+  },
+  {
+    path: 'lista_comprobantes',
+    component: RutaListaComprobantesComponent
+  },
+  {
+    path: 'tipo_comprobante',
+    component: RutaTipoComprobanteComponent
   }
 ];
 

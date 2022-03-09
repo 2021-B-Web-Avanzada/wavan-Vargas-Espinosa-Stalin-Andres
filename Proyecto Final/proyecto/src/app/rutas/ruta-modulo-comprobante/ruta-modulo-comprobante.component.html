@@ -1,1 +1,24 @@
-<p>ruta-modulo-comprobante works!</p>
+<header class="header">
+  <div class="container">
+    RESTAURANTE
+  </div>
+  <div class="cerrar_sesion"><b>CERRAR SESION</b></div>
+</header>
+<div class="texto_modulo">
+  <b>MÓDULO DE FACTURACIÓN</b>
+</div>
+<div class="cuadro_modulos" >
+  <img  style="   " [src]="imagen1" alt=""  width="100%" height="100%"  (click)="lista_comprobantes()">
+  <div class="texto_categorias">LISTA DE COMPROBANTES</div>
+</div>
+<div class="cuadro_modulos">
+  <img  style=" " [src]="imagen2" alt=""  width="100%" height="100%"  (click)="tipo_comprobante()" >
+  <div class="texto_categorias">NUEVO COMPROBANTE</div>
+</div>
+<button type="button" class="btn btn-light" style="margin-left: 50px" (click)="regresar()">Regresar </button>
+
+
+
+<footer class="footer">
+  &#9400; Copyright 2021 by Andres Vargas and Diego Marquez. All Rights Reserved
+</footer>

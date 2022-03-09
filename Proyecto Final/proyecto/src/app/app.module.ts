@@ -15,6 +15,8 @@ import { RutaListaClientesComponent } from './rutas/ruta-lista-clientes/ruta-lis
 import { RutaNuevoClienteComponent } from './rutas/ruta-nuevo-cliente/ruta-nuevo-cliente.component';
 import { RutaEditarClienteComponent } from './rutas/ruta-editar-cliente/ruta-editar-cliente.component';
 import { RutaModuloComprobanteComponent } from './rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component';
+import { RutaListaComprobantesComponent } from './rutas/ruta-lista-comprobantes/ruta-lista-comprobantes.component';
+import { RutaTipoComprobanteComponent } from './rutas/ruta-tipo-comprobante/ruta-tipo-comprobante.component';
 
 
 @NgModule({
@@ -29,6 +31,8 @@ import { RutaModuloComprobanteComponent } from './rutas/ruta-modulo-comprobante/
     RutaNuevoClienteComponent,
     RutaEditarClienteComponent,
     RutaModuloComprobanteComponent,
+    RutaListaComprobantesComponent,
+    RutaTipoComprobanteComponent,
 
   ],
   imports: [
