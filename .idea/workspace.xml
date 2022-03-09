@@ -5,11 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulo-comprobante/ruta-modulo-comprobante.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-modulos/ruta-modulos.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-tipo-comprobante/ruta-tipo-comprobante.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-tipo-comprobante/ruta-tipo-comprobante.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +102,7 @@
       <workItem from="1645201990630" duration="26638000" />
       <workItem from="1645482795667" duration="17736000" />
       <workItem from="1645550481370" duration="41439000" />
-      <workItem from="1645922222975" duration="71718000" />
+      <workItem from="1645922222975" duration="77416000" />
     </task>
     <servers />
   </component>
