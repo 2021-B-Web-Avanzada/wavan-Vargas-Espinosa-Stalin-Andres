@@ -1,0 +1,53 @@
+<header class="header">
+  <div class="container">
+    RESTAURANTE
+  </div>
+  <div class="cerrar_sesion"><b>CERRAR SESION</b></div>
+</header>
+<div class="texto_nuevo_plato">
+  <b>NUEVO CLIENTE</b>
+</div>
+<form style="margin-left: 120px ; margin-top: 30px ; box-sizing: border-box">
+  <div class="form-row">
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault01" class="informacion">Cédula</label>
+      <input type="text" class="form-control" id="validationDefault01" placeholder="Cédula "  required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault02" class="informacion " >Nombre</label>
+      <input type="text" class="form-control" id="validationDefault02" placeholder="Ingrese su nommbre completo"  required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault03" class="informacion " >Dirección</label>
+      <input type="text" class="form-control" id="validationDefault03" placeholder="Ingrese la direccion de su domicilio"  required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault04" class="informacion " >Ciudad</label>
+      <input type="text" class="form-control" id="validationDefault04" placeholder= "Ciudad donde vive"   required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault05" class="informacion " >Teléfono</label>
+      <input type="text" class="form-control" id="validationDefault05" placeholder="Ingrese su nommbre completo"  required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault06" class="informacion " >Email</label>
+      <input type="email" class="form-control" id="validationDefault06" placeholder="Ingrese su correo electronico"  required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault07" class="informacion " >Fecha de Nacimiento</label>
+      <input type="date" class="form-control" id="validationDefault07" placeholder= "Ciudad donde vive"   required>
+    </div>
+
+
+  </div>
+
+
+  <button class="btn btn-primary" style="width: 90% ; background: rgba(253,204,33,1); border: 2px solid rgba(253,204,33,1); color: black; font-weight: bold
+; font-size: 20px" type="submit" (click)="lista_clientes()">Crear nuevo Cliente</button>
+</form>
+
+<button type="button" class="btn btn-light" style="margin-left: 50px ; margin-top: 180px ;" (click)="regresar()">Regresar </button>
+<footer class="footer">
+  &#9400; Copyright 2021 by Andres Vargas and Diego Marquez. All Rights Reserved
+</footer>
+

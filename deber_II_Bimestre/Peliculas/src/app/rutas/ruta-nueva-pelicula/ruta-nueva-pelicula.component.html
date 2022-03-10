@@ -1,0 +1,79 @@
+<div class="container">
+  <h3 style="color: #FF5733">NUEVA PELICULA</h3><br>
+  <form [formGroup]="nuevoForm" (ngSubmit)="crearPelicula(nuevoForm.value)"  >
+    <div class="form-group">
+      <div class="row alinear">
+        <div  class="col-sm-2 alinear">
+          <label class="col-sm-6 col-form-label">id del cine: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="ID cine"
+                 formControlName="id"
+                 >
+        </div>
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-sm-4 alinear">
+          <label class="col-sm-4 col-form-label">Pelicula: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Ingrese el nombre de la pelicula"
+                 formControlName="nombrePelicula">
+        </div>
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-sm-4 alinear">
+          <label class="col-sm-4 col-form-label">Categoria: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Ingrese la categoria"
+                 formControlName="Categoria">
+        </div>
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-sm-2 alinear">
+          <label class="col-sm-6 col-form-label">Cartelera: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="YES/NO"
+                 formControlName="Esta_en_Cartelera">
+        </div>
+        <br>
+        <div class="col-sm-2 alinear">
+          <label class="col-sm-6 col-form-label">restriccion de edad: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="restriccion de edad "
+                 formControlName="restriccion">
+        </div>
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-sm-4 alinear">
+          <label class="col-sm-2 col-form-label">fecha de estreno: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Ingrese la fecha de estreno"
+                 formControlName="fecha_estreno">
+        </div>
+      </div>
+
+
+
+    </div>
+    <br><br>
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-1">
+        <button type="submit" class="btn" style="background-color: #13678A; float: left; color: white">Guardar</button>
+      </div>
+      <div class="col-sm-1">
+        <button type="button" class="btn" style="background-color: #F74949; float:left; margin-left: 40px; color: white" (click)="salir()">Salir</button>
+      </div>
+    </div>
+
+  </form>
+</div>
+

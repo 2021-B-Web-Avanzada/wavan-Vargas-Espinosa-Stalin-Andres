@@ -1,0 +1,83 @@
+.footer_principal{
+  float: left;
+  width: 100%;
+  height: 700px;
+  background: #FFF0E5;
+  box-sizing: border-box;
+}
+.footer_izquierda{
+  width: 46%; height: 580px; box-sizing: border-box; float: left; margin-left: 4%; margin-top: 40px; border-right: 1px solid #0A0D1C;;
+}
+.footer_derecha{
+  width: 46%; height: 580px; box-sizing: border-box; float: left; margin-top: 40px;
+}
+.footer_central{
+  width: 92%; height: 75px;  margin-top: 620px; margin-left: 4%;
+}
+.div_listas{
+  float: left;
+  height: 100%; width: 33%;
+
+}
+.submenu li a{
+
+  display: block;
+  padding: 8px;
+  color: #383736;
+  font-family: "APERCU";
+  text-decoration: none;
+  font-size:20px ;
+  color: #0A0D1C;;
+ //z-index: 1;
+}
+.submenu  li{
+  list-style: none;
+  margin-left: 0;
+  color:#0A0D1C;
+}
+.submenu ul{
+  list-style: none;
+}
+.div_listas li{
+  list-style: none;
+  color: #0A0D1C;
+  font-family: 'Apercu';
+  font-size: 20px;
+}
+
+.submenu li a:hover{
+  color: #3A10E5;
+}
+.div_listas ul.lista_redes li{
+  display: inline-block;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.div_privacy{
+  width: 50%; height: 60px;  //margin-top: 620px;
+  // margin-left: 4%;
+  box-sizing: border-box; margin-top: 10px;
+  float: left;
+  border-top: 1px solid  #0A0D1C;
+}
+.div_privacy ul li{
+  display: inline;
+  padding-right: 8px;
+}
+
+.div_privacy ul li a{
+  text-decoration: none;
+  display: inline;
+  padding-right: 8px;
+  color: #0A0D1C;
+  font-family: 'Apercu';
+  font-size: 17px;
+}
+.div_privacy ul li a:hover{
+  color: #3A10E5;
+}
+.navlist_love {
+  margin-right: 35px;
+  padding-left: 340px;
+}

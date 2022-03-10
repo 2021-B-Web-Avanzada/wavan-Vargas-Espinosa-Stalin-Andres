@@ -1,0 +1,50 @@
+[
+  {
+    "identificador": "1",
+    "nombrePelicula": "EL HOBBIT",
+    "Categoria": "aventura",
+    "Esta_en_Cartelera": "Yes",
+    "restriccion": "+18",
+    "fecha_Estreno": "03-12-2021"
+  },
+  {
+    "identificador": "2",
+    "nombrePelicula": "fvcx",
+    "Categoria": "fgds",
+    "Esta_en_Cartelera": true,
+    "restriccion": "gfds",
+    "fecha_Estreno": "fds"
+  },
+  {
+    "identificador": "3",
+    "nombrePelicula": "ds",
+    "Categoria": "ds",
+    "Esta_en_Cartelera": true,
+    "restriccion": "+18",
+    "fecha_Estreno": "gfds"
+  },
+  {
+    "identificador": "4",
+    "nombrePelicula": "gfd",
+    "Categoria": "hgfdx",
+    "Esta_en_Cartelera": true,
+    "restriccion": "gfds",
+    "fecha_Estreno": "gfds"
+  },
+  {
+    "identificador": "U11",
+    "nombrePelicula": "GAUCHOS",
+    "Categoria": "animacion",
+    "Esta_en_Cartelera": true,
+    "restriccion": "+18",
+    "fecha_Estreno": "18/12/2021"
+  },
+  {
+    "identificador": "S10",
+    "nombrePelicula": "Spiderman no way home",
+    "Categoria": "Aventura",
+    "Esta_en_Cartelera": true,
+    "restriccion": "+15",
+    "fecha_Estreno": "17/12/2021"
+  }
+]

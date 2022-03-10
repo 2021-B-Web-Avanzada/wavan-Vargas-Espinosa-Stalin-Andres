@@ -1,0 +1,105 @@
+<div class="container">
+  <h3 style="color: #FF5733">EDITAR PELICULA</h3><br>
+  <form [formGroup]="formularioPelicula" (ngSubmit)="actualizarPelicula(formularioPelicula.value,formularioPelicula.value.id_pelicula)"  >
+    <div class="form-group">
+
+      <div class="row alinear">
+        <div  class="col-sm-2 alinear">
+          <label class="col-sm-6 col-form-label">Identificador: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="ID de la pelicula"
+                 formControlName="id_pelicula"
+                 >
+        </div>
+      </div>
+
+      <br>
+      <div class="row alinear">
+        <div class="col-sm-2 alinear">
+          <label class="col-sm-6 col-form-label">id_cine: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="ID del cine"
+                 formControlName="id"
+                 >
+        </div>
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-sm-4 alinear">
+          <label class="col-sm-4 col-form-label">Pelicula: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Ingrese el nombre de la pelicula"
+                 formControlName="nombrePelicula">
+        </div>
+
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-sm-4 alinear">
+          <label class="col-sm-4 col-form-label">categoria: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Ingrese la categoria"
+                 formControlName="Categoria">
+        </div>
+      </div>
+      <br>
+
+      <div class="row alinear">
+        <div class="col-sm-2 alinear">
+          <label class="col-sm-6 col-form-label">En cartelera: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="SI/NO"
+                 formControlName="Esta_en_Cartelera">
+        </div>
+        <BR>
+        <div class="col-sm-2 alinear">
+          <label class="col-sm-6 col-form-label">restricción: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Ingrese la edad de restricción"
+                 formControlName="restriccion">
+        </div>
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-sm-4 alinear">
+          <label class="col-sm-4 col-form-label">fecha de estreno: </label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Ingrese la fecha de estreno"
+                 formControlName="fecha_estreno">
+        </div>
+      </div>
+
+
+
+
+
+
+    <br>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-1">
+        <button type="submit" class="btn" style="background-color: #13678A; float:left; color: white">Guardar</button>
+      </div>
+      <div class="col-sm-1" style="float:left;  margin-left: 40px">
+        <button type="button" class="btn btn-danger" (click)="borrarPelicula(formularioPelicula.value.id_pelicula)">Eliminar</button>
+      </div>
+      <div class="col-sm-1" style="margin-left: 40px; float: left">
+        <button type="button" class="btn" style="background-color: #F74949; color: white" (click)="salir()">Salir</button>
+      </div>
+
+    </div>
+
+    </div>
+
+
+  </form>
+</div>
+
+

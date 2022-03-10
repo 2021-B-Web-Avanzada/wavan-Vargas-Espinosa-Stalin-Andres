@@ -1,0 +1,101 @@
+<h4 class="alinear" style="color: #FF5733">EDITAR CINE</h4>
+<div class="col-2 alinear"><br>
+  <button type="button" class="btn" style="background-color: #137AEF; color: white"
+          *ngFor="let info of informacionCine"
+
+          (click)="VerListaPeliculas(editFormulario.value.id)">lista de Peliculas Asociadas</button>
+
+</div>
+<br>
+<div class="container">
+  <form [formGroup]="editFormulario" (ngSubmit)="actualizarCine(editFormulario.value,editFormulario.value.id)"  >
+    <div class="form-group ">
+      <br>
+      <div class="row  alinear">
+        <div class="col-sm-2 alinear">
+          <label class="col-sm-2 col-form-label">ID</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="ID del cine"
+                 formControlName="id"
+                 readonly>
+        </div>
+
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label class="col-sm-4 col-form-label">Cine:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Nombre del cine"
+                 formControlName="nombre_cine">
+        </div>
+      </div>
+      <br>
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label class="col-sm-4 col-form-label">Dirección:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Dirección "
+                 formControlName="Direccion">
+        </div>
+      </div>
+      <br>
+
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label class="col-sm-4 col-form-label">Administrador:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder=" nombre del dminsitrador"
+                 formControlName="administrador">
+        </div>
+      </div>
+      <br>
+
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label class="col-sm-4 col-form-label">Contacto:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder=  "teléfono de contacto "
+                 formControlName="TelefonoContacto">
+        </div>
+      </div>
+
+      <br>
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label class="col-sm-4 col-form-label">Hora de Atención:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="hh:mm-hh:mm"
+                 formControlName="hora_Apertura">
+        </div>
+      </div>
+
+
+    </div>
+    <br><br>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-1">
+        <button type="submit" class="btn" style="background-color: #137AEF;float:left; color: white">Guardar</button>
+      </div>
+      <div class="col-sm-1" style="float:left; margin-left: 40px ">
+        <button type="button"  class="btn btn-danger" (click)="eliminarCine(editFormulario.value.id)">Eliminar</button>
+      </div>
+      <div class="col-sm-1" style="float:left; margin-left: 40px ">
+        <button type="button" class="btn" style="background-color: #F74949; color: white" (click)="salir()">Salir</button>
+      </div>
+
+    </div>
+
+
+
+
+  </form>
+</div>
+

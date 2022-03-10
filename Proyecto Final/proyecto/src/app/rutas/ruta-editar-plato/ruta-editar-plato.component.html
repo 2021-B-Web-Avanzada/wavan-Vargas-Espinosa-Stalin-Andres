@@ -1,0 +1,45 @@
+<header class="header">
+  <div class="container">
+    RESTAURANTE
+  </div>
+  <div class="cerrar_sesion"><b>CERRAR SESION</b></div>
+</header>
+<div class="texto_nuevo_plato">
+  <b>EDITAR INFORMACIÓN DEL PLATO</b>
+</div>
+<form style="margin-left: 120px ; margin-top: 30px ; box-sizing: border-box">
+  <div class="form-row">
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault01" class="informacion">Nombre del Plato</label>
+      <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre "  required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault02" class="informacion " >Descripción</label>
+      <input type="text" class="form-control" id="validationDefault02" placeholder="Ingrese una breve descripción del plato a ingresar"  required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault03" class="informacion " >Precio</label>
+      <input type="text" class="form-control" id="validationDefault03" placeholder="ingrese el valor del plato"  required>
+    </div>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault04" class="informacion " >Categoria</label>
+      <input type="text" class="form-control" id="validationDefault04" placeholder="Ingrese la categoria a la que pertenece"  required>
+    </div>
+    <div class="mb-3">
+      <label for="formFile" class="form-label"  class="informacion ">Imagen Referencial</label>
+      <input class="form-control" type="file" id="formFile" style="width: 90%">
+    </div>
+
+  </div>
+
+
+  <button class="btn btn-primary" style="width: 90% ; background: rgba(253,204,33,1); border: 2px solid rgba(253,204,33,1); color: black; font-weight: bold
+; font-size: 20px" type="submit" (click)="categorias()">Actualizar</button>
+</form>
+
+<button type="button" class="btn btn-light" style="margin-left: 50px ; margin-top: 180px ;" (click)="regresar()">Regresar </button>
+<footer class="footer">
+  &#9400; Copyright 2021 by Andres Vargas and Diego Marquez. All Rights Reserved
+</footer>
+
+

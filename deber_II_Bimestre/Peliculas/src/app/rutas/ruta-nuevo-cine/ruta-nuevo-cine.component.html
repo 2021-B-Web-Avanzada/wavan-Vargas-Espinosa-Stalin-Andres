@@ -1,0 +1,76 @@
+<div class="container">
+  <h4 class="alinear" style="color: #FF5733">CREAR NUEVO CINE</h4><br>
+  <form [formGroup]="nuevoForm" (ngSubmit)="postForm(nuevoForm.value)"  >
+    <div class="form-group">
+      <div class="row  alinear">
+        <div class="col-sm-4 alinear">
+          <label class="col-sm-4 col-form-label">Cine:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Nombre del Cine"
+                 formControlName="nombre_cine">
+        </div>
+      </div>
+      <br>
+
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label class="col-sm-4 col-form-label">Direccion:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="Direccion"
+                 formControlName="Direccion">
+        </div>
+      </div>
+      <br>
+
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label  class="col-sm-4 col-form-label"> Administrador:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="nombre del Administrador"
+                 formControlName="administrador">
+        </div>
+      </div>
+      <br>
+
+
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label  class="col-sm-4 col-form-label">Teléfono de contacto:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="número Telefonico"
+                 formControlName="telefonoContacto">
+        </div>
+      </div>
+      <br>
+
+      <div class="row alinear">
+        <div class="col-4 alinear">
+          <label  class="col-sm-4 col-form-label">Hora de atención:</label>
+          <input type="text"
+                 class="form-control"
+                 placeholder="hh:mm-hh:mm"
+                 formControlName="hora_Apertura">
+        </div>
+      </div>
+      <br>
+    </div>
+    <br><br>
+
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-1">
+        <button type="submit" class="btn" style="background-color: #1388EF; float: left; color: white">Guardar</button>
+      </div>
+      <div class="col-sm-1">
+        <button type="button" class="btn" style="background-color: #EF2713;margin-left: 50px; float: left; color: white" (click)="salir()">Salir</button>
+      </div>
+    </div>
+
+
+  </form>
+</div>
+
+

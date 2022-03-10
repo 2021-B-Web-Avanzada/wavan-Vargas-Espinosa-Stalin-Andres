@@ -1,0 +1,89 @@
+[
+  {
+    "identificador": "3",
+    "nombreCine": "Cines Pepito",
+    "direccion": "Av. Ajavi",
+    "nombreAdministrador": "Maria Suarez",
+    "telefonoAdministrador": 961000284,
+    "horaApertura": "8:00-21:00",
+    "pelicula": [
+      {
+        "identificador": "4",
+        "nombrePelicula": "fds",
+        "Categoria": "gfd",
+        "Esta_en_Cartelera": false,
+        "restriccion": "+13",
+        "fecha_Estreno": "fds"
+      }
+    ]
+  },
+  {
+    "identificador": "4",
+    "nombreCine": "Supercines Juanito",
+    "direccion": "Av. Simon Bolivar",
+    "nombreAdministrador": "2684942",
+    "telefonoAdministrador": 4765,
+    "horaApertura": "12:00-15:00",
+    "pelicula": [
+      {
+        "identificador": "U10",
+        "nombrePelicula": "gfds",
+        "Categoria": "gfds",
+        "Esta_en_Cartelera": true,
+        "restriccion": "gfvdcx",
+        "fecha_Estreno": "ybfvc"
+      },
+      {
+        "identificador": "U10",
+        "nombrePelicula": "ANDRES",
+        "Categoria": "ANDRES",
+        "Esta_en_Cartelera": true,
+        "restriccion": "+14",
+        "fecha_Estreno": "10/12/2021"
+      },
+      {
+        "identificador": "U11",
+        "nombrePelicula": "GAUCHOS",
+        "Categoria": "animacion",
+        "Esta_en_Cartelera": true,
+        "restriccion": "+18",
+        "fecha_Estreno": "18/12/2021"
+      }
+    ]
+  },
+  {
+    "identificador": "6",
+    "nombreCine": "Muticines Centro",
+    "direccion": "Av Santo Domingo",
+    "nombreAdministrador": "Andres Vargas",
+    "telefonoAdministrador": 961000284,
+    "horaApertura": "10:00-23:00",
+    "pelicula": []
+  },
+  {
+    "identificador": "7",
+    "nombreCine": "Supercines Sur",
+    "direccion": "Av Moran Vaverde",
+    "nombreAdministrador": "Andres Vargas",
+    "telefonoAdministrador": 961000284,
+    "horaApertura": "10:00-22:00",
+    "pelicula": [
+      {
+        "identificador": "S10",
+        "nombrePelicula": "Spiderman",
+        "Categoria": "Accion",
+        "Esta_en_Cartelera": true,
+        "restriccion": "+15",
+        "fecha_Estreno": "16/12/2021"
+      },
+      {
+        "identificador": "S10",
+        "nombrePelicula": "Spiderman no way home",
+        "Categoria": "Aventura",
+        "Esta_en_Cartelera": true,
+        "restriccion": "+15",
+        "fecha_Estreno": "17/12/2021"
+      }
+    ]
+  }
+]
