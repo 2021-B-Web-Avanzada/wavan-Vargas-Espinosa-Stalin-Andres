@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BannerImagenesComponent } from './banner-imagenes/banner-imagenes.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -9,7 +9,9 @@ import { BannerImagenesComponent } from './banner-imagenes/banner-imagenes.compo
     BannerImagenesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   exports:[
     BannerImagenesComponent

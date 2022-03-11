@@ -20,8 +20,7 @@ import { RutaTipoComprobanteComponent } from './rutas/ruta-tipo-comprobante/ruta
 import { RutaInformacionFacturaComponent } from './rutas/ruta-informacion-factura/ruta-informacion-factura.component';
 import { RutaInformacionConsumidorFinalComponent } from './rutas/ruta-informacion-consumidor-final/ruta-informacion-consumidor-final.component';
 import { RutaFacturaFinalComponent } from './rutas/ruta-factura-final/ruta-factura-final.component';
-
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +44,9 @@ import { RutaFacturaFinalComponent } from './rutas/ruta-factura-final/ruta-factu
     BrowserModule,
     AppRoutingModule,
     BannerImagenesModule,
-    BannerImagenesModuloModule  ],
+    BannerImagenesModuloModule,
+    FormsModule,
+    ReactiveFormsModule,],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1775d524-eeec-45b5-ab8d-dd64bb9dd5dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes/banner-imagenes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes/banner-imagenes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes/banner-imagenes.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/componentes/banner-imagenes/banner-imagenes/banner-imagenes.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Web Avanzadas/wavan-marquez-coronel-diego-alejandro" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/Proyecto Final/proyecto/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -54,8 +58,9 @@
       <workItem from="1646796742706" duration="549000" />
       <workItem from="1646947534451" duration="16754000" />
       <workItem from="1646973309691" duration="1948000" />
-      <workItem from="1647004759135" duration="2073000" />
-      <workItem from="1647006853890" duration="6000" />
+      <workItem from="1647004759135" duration="5904000" />
+      <workItem from="1647012198520" duration="88000" />
+      <workItem from="1647023862274" duration="11162000" />
     </task>
     <servers />
   </component>
