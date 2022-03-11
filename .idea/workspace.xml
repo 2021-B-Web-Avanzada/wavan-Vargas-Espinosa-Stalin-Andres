@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1775d524-eeec-45b5-ab8d-dd64bb9dd5dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/models/categoria.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/models/cliente.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/models/comprobante.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/models/plato.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/routes/categoria.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/routes/cliente.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/routes/comprobante.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/routes/plato.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/categoria.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/cliente.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/comprobante.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/interfaces/categoria.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/interfaces/cliente.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/interfaces/comprobante.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/interfaces/plato.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/plato.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-categorias/ruta-categorias.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/rutas/ruta-categorias/ruta-categorias.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +52,10 @@
       <option name="presentableId" value="Default" />
       <updated>1646796740358</updated>
       <workItem from="1646796742706" duration="549000" />
-      <workItem from="1646947534451" duration="15715000" />
+      <workItem from="1646947534451" duration="16754000" />
+      <workItem from="1646973309691" duration="1948000" />
+      <workItem from="1647004759135" duration="2073000" />
+      <workItem from="1647006853890" duration="6000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,11 @@
-export interface PlatoInterface {
+export interface ClienteInterface {
   _id?: string,
   nombre: string,
-  descripcion: string,
-  precio: number,
+  apellido: string,
+  direccion: string,
+  ciudad: string,
+  telefono: string,
+  email: string,
+  fechaNacimiento: string,
 
-  categoriaID: string,
-  comprobanteID: string
 }

@@ -1,4 +1,4 @@
-export interface PlatoInterface {
+export interface ComprobanteInterface {
   _id?: string,
   fecha: string,
   subtotal: number,
