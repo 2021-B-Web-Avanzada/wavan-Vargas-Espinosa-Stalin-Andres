@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BannerImagenesModuloModule } from './componentes/banner-imagenes-modulo/banner-imagenes-modulo.module';
@@ -20,6 +21,8 @@ import { RutaTipoComprobanteComponent } from './rutas/ruta-tipo-comprobante/ruta
 import { RutaInformacionFacturaComponent } from './rutas/ruta-informacion-factura/ruta-informacion-factura.component';
 import { RutaInformacionConsumidorFinalComponent } from './rutas/ruta-informacion-consumidor-final/ruta-informacion-consumidor-final.component';
 import { RutaFacturaFinalComponent } from './rutas/ruta-factura-final/ruta-factura-final.component';
+
+
 
 
 @NgModule({
@@ -45,7 +48,11 @@ import { RutaFacturaFinalComponent } from './rutas/ruta-factura-final/ruta-factu
     BrowserModule,
     AppRoutingModule,
     BannerImagenesModule,
-    BannerImagenesModuloModule  ],
+    BannerImagenesModuloModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
+   ],
   providers: [],
   bootstrap: [AppComponent]
 })

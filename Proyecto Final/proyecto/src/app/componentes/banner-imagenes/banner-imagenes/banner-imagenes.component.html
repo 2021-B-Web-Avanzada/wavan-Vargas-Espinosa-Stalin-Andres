@@ -1,15 +1,17 @@
 <body class="body">
 <div  class="caja_principal">
- <img  style="border: 1px solid black ; opacity: 0.9" [src]="urlmarketing" alt=""  width="100%" height="100%">
+  <img  style="border: 1px solid black ; opacity: 0.9" [src]="urlmarketing" alt=""  width="100%" height="100%">
   <div class="texto_encima">
     <div class="texto_EPN">RESTAURANTE EPN </div>
     <div class="logo">
       <img  style="border-radius: 75px" [src]="logo" alt=""  width="100%" height="100%">
     </div>
     <div class="formulario">
-      <form>
-        <input type="text" name="usuario" class="datos_ingreso"  placeholder="Your email address">
-        <input type="text"  name="password" class="datos_ingreso" placeholder="your password">
+      <form [formGroup]="formLogin" (submit)="categorias()" >
+
+        <input class="datos_ingreso" type="text" id="user" formControlName="user" placeholder="Usuario">
+
+        <input class="datos_ingreso" type="password" id="password" formControlName="password" placeholder="password">
       </form>
 
       <input class="btn_iniciar_sesion"  type="submit" value="Iniciar Sesión" (click)="categorias()" >
@@ -17,8 +19,8 @@
 
 
   </div>
-<div class="cuadros_imagenes">
-  <img  style=" " [src]="imagen1_comida" alt=""></div>
+  <div class="cuadros_imagenes">
+    <img  style=" " [src]="imagen1_comida" alt=""></div>
   <div class="cuadros_imagenes2">
     <img  style="   " [src]="imagen2_comida" alt=""  width="100%" height="100%"></div>
   <div class="cuadros_imagenes3">
@@ -28,5 +30,3 @@
 </div>
 
 </body>
-
-
