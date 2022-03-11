@@ -10,7 +10,7 @@
 <table class="table">
   <thead class=".table-striped">
   <tr>
-    <th scope="col">id</th>
+    <th scope="col">imagen</th>
     <th scope="col">nombre</th>
     <th scope="col">descripcion</th>
     <th scope="col">categoria</th>
@@ -18,13 +18,9 @@
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let plato of platos; let i=index">
-    <th scope="row">{{plato.id_plato}}</th>
-    <td>{{plato.nombre}}</td>
-    <td>{{plato.descripcion}}</td>
-    <td>{{plato.precio }}</td>
-    <td>{{plato.categoria}}</td>
+  <tr>
 
+  </tr>
   </tbody>
 </table>
 <button type="button" class="btn btn-light" style="margin-left: 50px" (click)="regresar()">Regresar </button>

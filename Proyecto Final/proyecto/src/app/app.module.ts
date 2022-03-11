@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BannerImagenesModuloModule } from './componentes/banner-imagenes-modulo/banner-imagenes-modulo.module';
@@ -46,9 +45,7 @@ import { RutaFacturaFinalComponent } from './rutas/ruta-factura-final/ruta-factu
     BrowserModule,
     AppRoutingModule,
     BannerImagenesModule,
-    BannerImagenesModuloModule,
-    HttpClientModule,
-    ReactiveFormsModule],
+    BannerImagenesModuloModule  ],
   providers: [],
   bootstrap: [AppComponent]
 })
