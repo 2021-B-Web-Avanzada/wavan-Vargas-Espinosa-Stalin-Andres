@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1775d524-eeec-45b5-ab8d-dd64bb9dd5dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/categoria.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/categoria.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/cliente.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/cliente.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/comprobante.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/comprobante.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/interfaces/cliente.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/interfaces/cliente.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/interfaces/comprobante.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/interfaces/comprobante.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/plato.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/services/http/plato.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/environments/environment.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +54,8 @@
       <workItem from="1646796742706" duration="549000" />
       <workItem from="1646947534451" duration="16754000" />
       <workItem from="1646973309691" duration="1948000" />
+      <workItem from="1647004759135" duration="2073000" />
+      <workItem from="1647006853890" duration="6000" />
     </task>
     <servers />
   </component>

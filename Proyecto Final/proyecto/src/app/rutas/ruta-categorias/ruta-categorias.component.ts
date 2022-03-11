@@ -18,6 +18,7 @@ export class RutaCategoriasComponent implements OnInit {
   }
 
   anadir(){
+
   this.router.navigate(['nuevo_plato'])
   }
   editar(){
