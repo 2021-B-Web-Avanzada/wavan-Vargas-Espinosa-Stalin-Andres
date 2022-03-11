@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
 
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto Final/proyecto/src/app/app.module.ts" afterDir="false" />
 
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,24 @@
 
   </component>
   <component name="TaskManager">
+<<<<<<< Updated upstream
 
+=======
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1775d524-eeec-45b5-ab8d-dd64bb9dd5dd" name="Changes" comment="" />
+      <created>1646796740358</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646796740358</updated>
+      <workItem from="1646796742706" duration="549000" />
+      <workItem from="1646947534451" duration="16754000" />
+      <workItem from="1646973309691" duration="1948000" />
+      <workItem from="1647004759135" duration="5904000" />
+      <workItem from="1647012198520" duration="88000" />
+      <workItem from="1647023862274" duration="11790000" />
+      <workItem from="1647036885350" duration="2177000" />
+    </task>
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
