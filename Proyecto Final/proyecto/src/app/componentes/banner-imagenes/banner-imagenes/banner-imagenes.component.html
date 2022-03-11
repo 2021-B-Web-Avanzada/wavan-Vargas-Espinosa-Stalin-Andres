@@ -8,10 +8,11 @@
     </div>
     <div class="formulario">
       <form [formGroup]="formLogin" (submit)="categorias()" >
-         <label for="user"></label>
-         <input class="datos_ingreso" type="text" id="user" formControlName="user">
-          <label for="password"></label>
-          <input class="datos_ingreso" type="password" id="password" formControlName="password">
+
+
+        <input class="datos_ingreso" type="text" id="user" formControlName="user" placeholder="Usuario">
+
+        <input class="datos_ingreso" type="password" id="password" formControlName="password" placeholder="password">
       </form>
 
       <input class="btn_iniciar_sesion"  type="submit" value="Iniciar Sesión" (click)="categorias()" >

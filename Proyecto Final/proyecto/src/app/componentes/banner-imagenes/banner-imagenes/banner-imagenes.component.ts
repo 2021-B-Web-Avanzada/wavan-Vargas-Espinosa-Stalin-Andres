@@ -27,15 +27,18 @@ export class BannerImagenesComponent implements OnInit {
 
   ngOnInit(): void {
 
+
   }
 
   categorias(){
-      if(this.formLogin.get("user")?.value == "admin" && this.formLogin.get("password")?.value == "admin"){
-        console.log(this.formLogin.value)
-        this.router.navigate(['modulos'])
+    if(this.formLogin.get("user")?.value == "admin" && this.formLogin.get("password")?.value == "admin") {
+
+      this.router.navigate(['modulos'])
+    }
+      else{
+        alert("Usuario o Contraseña incorrectos")
       }
+    }
 
-
-  }
 
 }
