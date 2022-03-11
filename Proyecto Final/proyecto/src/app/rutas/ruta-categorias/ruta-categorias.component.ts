@@ -16,6 +16,7 @@ export class RutaCategoriasComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   anadir(){
   this.router.navigate(['nuevo_plato'])
   }
