@@ -22,15 +22,22 @@
   </tr>
   </thead>
   <tbody>
-  <tr>
-
+  <!--(click)="editar(cliente.id_cliente)-->
+  <tr *ngFor="let cliente of clientes ">
+    <th scope="row">{{cliente.id_cliente}}</th>
+    <td>{{cliente.cedula}}</td>
+    <td>{{cliente.nombre}}</td>
+    <td>{{cliente.direccion }}</td>
+    <td>{{cliente.ciudad}}</td>
+  <td>{{cliente.telefono}}</td>
+  <td>{{cliente.email }}</td>
+  <td>{{cliente.fecha_nacimiento}}</td>
   </tr>
   </tbody>
 </table>
 <button type="button" class="btn btn-light" style="margin-left: 50px" (click)="regresar()">Regresar </button>
 <button type="button" class="btn btn-success"  style="margin-left: 50px" (click)="anadir()">Añadir</button>
-<button type="button" class="btn btn-warning"  style="margin-left: 50px" (click)="editar()">Editar</button>
-<button type="button" class="btn btn-danger" style="margin-left: 50px" (click)="borrar()">Borrar</button>
+
 
 <footer class="footer">
   &#9400; Copyright 2021 by Andres Vargas and Diego Marquez. All Rights Reserved

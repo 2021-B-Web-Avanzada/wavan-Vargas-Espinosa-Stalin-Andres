@@ -40,7 +40,8 @@ const routes: Routes = [
     component: RutaNuevoPlatoComponent
   },
   {
-    path: 'editar_plato',
+    path: 'editar_plato/:id_plato',
+
     component: RutaEditarPlatoComponent
   },
   {
@@ -68,15 +69,16 @@ const routes: Routes = [
     component: RutaTipoComprobanteComponent
   },
   {
-    path: 'informacion_factura',
+
+    path: 'informacion_factura/:valor',
     component: RutaInformacionFacturaComponent
   },
   {
-    path: 'consumidor_final',
+    path: 'consumidor_final/:valor',
     component: RutaInformacionConsumidorFinalComponent
   },
   {
-    path: 'factura_final',
+    path: 'factura_final/:cedula',
     component: RutaFacturaFinalComponent
   }
 ];

@@ -12,7 +12,7 @@
   <thead class=".table-striped">
   <tr>
     <th scope="col">ID</th>
-    <th scope="col">Nro de Comprobante</th>
+
     <th scope="col">Fecha</th>
     <th scope="col">Subtotal</th>
     <th scope="col">Total</th>
@@ -23,7 +23,16 @@
   </tr>
   </thead>
   <tbody>
-  <tr>
+  <tr *ngFor="let comprobante of comprobantes ">
+    <th scope="row">{{comprobante.id_comprobante}}</th>
+    <td>{{comprobante.fecha}}</td>
+    <td>{{comprobante.subtotal}}</td>
+    <td>{{comprobante.total}}</td>
+    <td>{{comprobante.estado_Comprobante}}</td>
+    <td>{{comprobante.tipo_comprobante}}</td>
+    <td>{{comprobante.detalle }}</td>
+    <td>{{comprobante.descuento}}</td>
+
 
   </tr>
   </tbody>

@@ -30,8 +30,10 @@ export class RutaCategoriasComponent implements OnInit {
   anadir(){
   this.router.navigate(['nuevo_plato'])
   }
-  editar(){
-  this.router.navigate(['editar_plato'])
+
+  editar(id_plato:number){
+    console.log(id_plato)
+  this.router.navigate(['editar_plato',id_plato])
   }
   borrar(){
 

@@ -7,27 +7,27 @@
 <div class="texto_nuevo_plato">
   <b>Factura</b>
 </div>
-<form style="margin-left: 120px ; margin-top: 30px ; box-sizing: border-box">
+<form [formGroup]="buscarForm" >
   <div class="form-row">
     <div class="col-md-4 mb-3" style=" width: 90%">
       <label for="validationDefault01" class="informacion">Fecha: </label>
-      <input type="text" class="form-control1" id="validationDefault01" value=""    required>
+      <input type="text" class="form-control" id="validationDefault01" value=""  formControlName="fecha"  required>
     </div>
     <div class="col-md-4 mb-3" style=" width: 90%">
-      <label for="validationDefault02" class="informacion1 " >CI/RUC: </label>
-      <input type="text" class="form-control" id="validationDefault02" value="" required>
+      <label for="validationDefault02" class="informacion " >CI/RUC: </label>
+      <input type="text" class="form-control" id="validationDefault02" value=""  formControlName="cedula"required>
     </div>
     <div class="col-md-4 mb-3" style=" width: 90%">
-      <label for="validationDefault03" class="informacion1 " >Teléfono: </label>
-      <input type="text" class="form-control" id="validationDefault03" value=""  required>
+      <label for="validationDefault03" class="informacion " >Teléfono: </label>
+      <input type="text" class="form-control" id="validationDefault03" value="" formControlName="telefono" required>
     </div>
     <div class="col-md-4 mb-3" style=" width: 90%">
-      <label for="validationDefault04" class="informacion1 " >Cliente: </label>
-      <input type="text" class="form-control" id="validationDefault04" value=""  required>
+      <label for="validationDefault04" class="informacion " >Cliente: </label>
+      <input type="text" class="form-control" id="validationDefault04" value="" formControlName="nombre" required>
     </div>
     <div class="col-md-4 mb-3" style=" width: 90%">
-      <label for="validationDefault05" class="informacion1 " >Dirección: </label>
-      <input type="text" class="form-control" id="validationDefault05" value=""  required>
+      <label for="validationDefault05" class="informacion " >Dirección: </label>
+      <input type="text" class="form-control" id="validationDefault05" value="" formControlName="direccion" required>
     </div>
 
 
@@ -46,37 +46,60 @@
   </thead>
   <tbody>
   <tr>
-
+  <td><input  type="text" value="2" ></td>
+    <td><input  type="text" value="ENSALADA"></td>
+    <td><input  type="text" value="3.50"></td>
+    <td><input  type="text" value="7.00"></td>
+  </tr>
+  <tr>
+    <td><input  type="text" value="3"></td>
+    <td><input  type="text" value="SOPA DE POLLO"></td>
+    <td><input  type="text" value="4.50"></td>
+    <td><input  type="text" value="13.50"></td>
+  </tr>
+  <tr>
+    <td><input  type="text" value=""></td>
+    <td><input  type="text" value=""></td>
+    <td><input  type="text" value=""></td>
+    <td><input  type="text" value=""></td>
+  </tr>
+  <tr>
+    <td><input  type="text" value=""></td>
+    <td><input  type="text" value=""></td>
+    <td><input  type="text" value=""></td>
+    <td><input  type="text" value=""></td>
   </tr>
   </tbody>
 </table>
 
-<!--<form style="margin-left: 120px ; margin-top: 30px ; box-sizing: border-box">
+<form >
   <div class="form-row">
-    <div class="col-md-4 mb-4" style=" width: 90%">
-      <label for="validationDefault10" class="informacion">Total Parcial: </label>
-      <input type="text" class="form-control" id="validationDefault10" value=""    required>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault06" class="informacion1 " >Total Parcial</label>
+      <input type="text" class="form-control1" value="20.50" id="validationDefault06" placeholder="Ingrese una breve descripción del plato a ingresar"  formControlName="subtotal"
+             readonly>
     </div>
-    <div class="col-md-4 mb-4" style=" width: 90%">
-      <label for="validationDefault02" class="informacion " >CI/RUC: </label>
-      <input type="text" class="form-control" id="validationDefault02" value="" required>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault07" class="informacion1">Descuento</label>
+      <input type="text" class="form-control1" value="0.00" id="validationDefault07" placeholder="Nombre "   formControlName="descuento" required>
     </div>
-    <div class="col-md-4 mb-4" style=" width: 90%">
-      <label for="validationDefault03" class="informacion " >Teléfono: </label>
-      <input type="text" class="form-control" id="validationDefault03" value=""  required>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault08" class="informacion1 " >Iva</label>
+      <input type="text" class="form-control1" value="2.46" id="validationDefault08" placeholder="Ingrese una breve descripción del plato a ingresar"  required>
     </div>
-    <div class="col-md-4 mb-4" style=" width: 90%">
-      <label for="validationDefault04" class="informacion " >Cliente: </label>
-      <input type="text" class="form-control" id="validationDefault04" value=""  required>
-    </div>
-    <div class="col-md-4 mb-4" style=" width: 90%">
-      <label for="validationDefault05" class="informacion " >Dirección: </label>
-      <input type="text" class="form-control" id="validationDefault05" value=""  required>
+    <div class="col-md-4 mb-3" style=" width: 90%">
+      <label for="validationDefault09" class="informacion1 " >Total</label>
+      <input type="text" class="form-control1" value="22.96" id="validationDefault09" placeholder="ingrese el valor del plato"  formControlName="total" required>
     </div>
 
 
   </div>
 
-</form>
 
--->
+  <button class="btn btn-primary" style="width: 90% ; background: rgba(253,204,33,1); border: 2px solid rgba(253,204,33,1); color: black; font-weight: bold
+; font-size: 20px" type="submit"  (click)="crearComprobante()">Generar</button>
+
+</form >
+<footer class="footer">
+  &#9400; Copyright 2021 by Andres Vargas and Diego Marquez. All Rights Reserved
+</footer>

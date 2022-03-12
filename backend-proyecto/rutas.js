@@ -1,7 +1,6 @@
 const express = require('express')
 const rutas =express.Router()
-
-//leer platos
+//todos los get
 rutas.get('/obtenerPlatos', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
@@ -18,15 +17,15 @@ rutas.get('/obtenerPlatos', (req,res)=>{
         }
     })
 })
-/*
-//obtener cine x Id
-rutas.get('/cinexId/:id', (req,res)=>{
+
+//obtener clientes
+rutas.get('/obtenerClientes', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
         }
         else{
-            conn.query('SELECT * FROM informacion_cine where id = ?'  ,[req.params.id], (err, rows)=>{
+            conn.query('SELECT * FROM cliente', (err, rows)=>{
                 if((err)) {
                     return res.send(err)
                 }  else{
@@ -36,7 +35,81 @@ rutas.get('/cinexId/:id', (req,res)=>{
         }
     })
 })
-*/
+
+//obtener comprobantes
+rutas.get('/obtenerCOmprobantes', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+            conn.query('SELECT * FROM comprobante_pago', (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.json(rows)
+                }
+            })
+        }
+    })
+})
+
+//crear comprobante
+rutas.post('/crearComprobante', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+
+            conn.query('INSERT INTO comprobante_pago set ?' ,[req.body], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.send('El comprobante  ha sido registrado ')
+                }
+            })
+        }
+    })
+})
+
+//obtener cine x Id
+rutas.get('/platoXid/:id_plato', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+            conn.query('SELECT * FROM plato where id_plato = ?'  ,[req.params.id_plato], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.json(rows)
+                }
+            })
+        }
+    })
+})
+
+// obtener cliente por cedula
+//obtener cine x Id
+rutas.get('/clienteXCedula/:cedula', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+            conn.query('SELECT * FROM cliente where cedula = ?'  ,[req.params.cedula], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.json(rows)
+                }
+            })
+        }
+    })
+})
+
 //crear cine
 rutas.post('/crearPlato', (req,res)=>{
     req.getConnection((err, conn)=>{
@@ -55,38 +128,57 @@ rutas.post('/crearPlato', (req,res)=>{
         }
     })
 })
-/*
-//borrar cine
-rutas.delete('/borrarCine/:id', (req,res)=>{
+//crear un cliente
+rutas.post('/crearCliente', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
         }
         else{
 
-            conn.query('DELETE FROM informacion_cine WHERE id = ? ' ,[req.params.id], (err, rows)=>{
+            conn.query('INSERT INTO cliente set ?' ,[req.body], (err, rows)=>{
                 if((err)) {
                     return res.send(err)
                 }  else{
-                    res.send('El cine ha sido eliminado ')
+                    res.send('El cliente ha sido registrado ')
                 }
             })
         }
     })
 })
-*/
-//actualizar cine
-rutas.put('/actualizarCine/:id', (req,res)=>{
+
+
+//borrar cine
+rutas.delete('/eliminarPlato/:id_plato', (req,res)=>{
     req.getConnection((err, conn)=>{
         if((err)) {
             return res.send(err)
         }
         else{
-            conn.query('UPDATE informacion_cine SET ? WHERE id = ? ' ,[req.body, req.params.id], (err, rows)=>{
+
+            conn.query('DELETE FROM plato WHERE id_plato = ? ' ,[req.params.id_plato], (err, rows)=>{
                 if((err)) {
                     return res.send(err)
                 }  else{
-                    res.send('El cine ha sido actualizado ')
+                    res.send('El plato ha sido eliminado ')
+                }
+            })
+        }
+    })
+})
+
+//actualizar cine
+rutas.put('/actualizarPlato/:id_plato', (req,res)=>{
+    req.getConnection((err, conn)=>{
+        if((err)) {
+            return res.send(err)
+        }
+        else{
+            conn.query('UPDATE plato SET ? WHERE id_plato = ? ' ,[req.body, req.params.id_plato], (err, rows)=>{
+                if((err)) {
+                    return res.send(err)
+                }  else{
+                    res.send('El plato ha sido actualizado ')
                 }
             })
         }

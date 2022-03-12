@@ -18,19 +18,19 @@
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let plato of platos; let i=index">
+  <tr *ngFor="let plato of platos" (click)="editar(plato.id_plato)">
     <th scope="row">{{plato.id_plato}}</th>
     <td>{{plato.nombre}}</td>
     <td>{{plato.descripcion}}</td>
     <td>{{plato.precio }}</td>
     <td>{{plato.categoria}}</td>
-
+  </tr>
   </tbody>
 </table>
 <button type="button" class="btn btn-light" style="margin-left: 50px" (click)="regresar()">Regresar </button>
 <button type="button" class="btn btn-success"  style="margin-left: 50px" (click)="anadir()">Añadir</button>
-<button type="button" class="btn btn-warning"  style="margin-left: 50px" (click)="editar()">Editar</button>
-<button type="button" class="btn btn-danger" style="margin-left: 50px" (click)="borrar()">Borrar</button>
+
+
 
 <footer class="footer">
   &#9400; Copyright 2021 by Andres Vargas and Diego Marquez. All Rights Reserved

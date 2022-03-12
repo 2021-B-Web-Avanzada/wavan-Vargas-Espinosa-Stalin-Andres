@@ -16,14 +16,19 @@ export class RutaTipoComprobanteComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  factura(){
-this.router.navigate(['informacion_factura'])
+factura(){
+    let valor = 'factura'
+this.router.navigate(['informacion_factura',valor])
   }
-  nota_venta(){
-this.router.navigate(['consumidor_final'])
+  consumidor(){
+    let valor = 'consumidor final'
+this.router.navigate(['consumidor_final', valor])
   }
   salir(){
     this.router.navigate(['modulo_comprobante'])
   }
+
+
+
 
 }
